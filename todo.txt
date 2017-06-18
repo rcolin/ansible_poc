@@ -5,3 +5,5 @@ module to test :
 - mail
 - git
 - get_url
+- jboss
+- tomcat
