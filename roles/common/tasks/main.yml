@@ -1,0 +1,13 @@
+---
+- debug: 
+    msg: "{{ env }} - {{ my_test }}"
+
+- name: Update cache
+  apt:
+   update_cache: yes
+  sudo: yes
+- name: fichier de conf
+  template:
+   src: test.properties.j2
+   dest: /tmp/test.properties
+

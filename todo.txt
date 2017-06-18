@@ -1,0 +1,7 @@
+module to test :
+- file: with different state (link, files, directory, etc...)
+- maven_artifact
+- command
+- mail
+- git
+- get_url

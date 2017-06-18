@@ -5,10 +5,6 @@
   vars_files:
    - vars/{{ env }}-variables.yml
 
-  tasks: 
-   - debug: 
-       msg: "{{ env }} - {{ my_test }}"
-   - name: Update cache 
-     apt: 
-      update_cache: yes
-     sudo: yes
+  roles:
+   - common
+

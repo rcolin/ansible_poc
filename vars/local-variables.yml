@@ -1,1 +1,3 @@
 my_test: hello world
+URLDB: jdbc:sybase
+LOGLEVEL: info
