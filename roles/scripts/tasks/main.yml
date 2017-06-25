@@ -1,0 +1,11 @@
+---
+- debug: 
+    msg: "{{ env }} - {{ my_test }}"
+
+- name: execute shell
+  local_action: shell roles/scripts/files/script.sh 
+  #shell: roles/scripts/files/script.sh 
+  args:
+    executable: /bin/bash
+
+
